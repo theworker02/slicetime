@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/slicetime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slice identifiers and time tokens for idempotent workflows.",
+  "bin": {
+    "slicetime": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/slicetime.git"
+  },
+  "homepage": "https://theworker02.github.io/slicetime/",
+  "keywords": [
+    "slice",
+    "time",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
